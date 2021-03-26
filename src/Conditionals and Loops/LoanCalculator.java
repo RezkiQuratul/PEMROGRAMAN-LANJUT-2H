@@ -1,5 +1,6 @@
+
 import java.util.Scanner;
-public class LoanCalkulator {
+public class LoanCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int amount = scanner.nextInt();
@@ -9,4 +10,5 @@ public class LoanCalkulator {
         for (int i = 3; i < months; i++)
             amount = amount * 90 / 100;
         System.out.println(amount);
+    }
 }
