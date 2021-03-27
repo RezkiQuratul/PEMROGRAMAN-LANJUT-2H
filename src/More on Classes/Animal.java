@@ -1,26 +1,10 @@
-class Animal {
-
-    public void makeSound() {
-
-        System.out.println("Hi");
-
-    }
+abstract class Animal {
+    public int age;
+    public  abstract int printAge();
 
 }
-
 class Dog extends Animal {
-
-}
-
-class A {
-
-    public static void main(String args[ ]) {
-
-        Dog dog = new Dog();
-
-
-        dog.makeSound();
-
+    public int printAge() {
+        return age;
     }
-
 }
