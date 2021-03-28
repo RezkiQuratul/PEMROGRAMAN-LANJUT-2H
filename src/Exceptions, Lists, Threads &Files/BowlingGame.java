@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Map;
 
-public class Bowling {
+class Bowling {
     HashMap<String, Integer> players;
     Bowling() {
         players = new HashMap<String, Integer>();
